@@ -1,5 +1,7 @@
 # Whatsup, weather man?
 
+This project uses the `v2 Forecast API`, please check it out [here](https://developer.forecast.io/).
+
 checkout [`gh-pages`](http://githubutilities.github.io/whatsup/)
 
 # `gh-pages` usage
