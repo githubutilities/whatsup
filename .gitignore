@@ -1,0 +1,12 @@
+.tmp
+.bowerrc
+.editorconfig
+.gitattributes
+.yo-rc.json
+node_modules
+bower_components
+Gruntfile.js
+bower.json
+package.json
+app
+test
