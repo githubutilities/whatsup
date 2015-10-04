@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <title>whatsup</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <!-- build:css(.) styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css(.tmp) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+
+
+    <!-- <div class="hero-unit">
+      <h1>'Allo, 'Allo!</h1>
+      <p>You now have</p>
+      <ul>
+        <li><a href="https://html5boilerplate.com/">HTML5 Boilerplate</a></li>
+      </ul>
+    </div> -->
+    
+    <h2>hourly</h2>
+    <div id="hourly-chart"></div>
+    <h2>minutely</h2>
+    <div id="minutely-chart"></div>
+
+    <h2>NOTE</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>precipitation intensity</th>
+          <th>words in English</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>0 in./hr.</td>
+          <td>no precipitation</td>
+        </tr>
+        <tr>
+          <td>0.002 in./hr.</td>
+          <td>very light precipitation</td>
+        </tr>
+        <tr>
+          <td>0.017 in./hr.</td>
+          <td>light precipitation</td>
+        </tr>
+        <tr>
+          <td>0.1 in./hr.</td>
+          <td>moderate precipitation</td>
+        </tr>
+        <tr>
+          <td>0.4 in./hr.</td>
+          <td>heavy precipitation</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/Flot/jquery.flot.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+  </html>
